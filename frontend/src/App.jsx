@@ -14,7 +14,7 @@ function App() {
     fullName: "", email: "", username: "", password: "", confirmPassword: ""
   });
 
-  const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API_BASE = "https://ex9-j2qf.onrender.com";
 
   // Handle login
   const handleLogin = async (e) => {
