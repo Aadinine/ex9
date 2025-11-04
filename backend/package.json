@@ -1,23 +1,21 @@
 {
-  "name": "backend",
+  "name": "hotel-auth-frontend",
+  "private": true,
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^3.0.3",
-    "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.19.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.0",
+    "bootstrap": "^5.3.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.0"
   }
 }
